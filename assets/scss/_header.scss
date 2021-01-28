@@ -1,0 +1,31 @@
+// VARIABLES
+$fondoColorHeader: rgb(128, 128, 199);
+.hover:hover {
+    color: white;
+    background-color: $fondoColorHeader;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.hoverSearch:hover {
+    background-color: $fondoColorHeader;
+}
+
+.animate__flipOutX {
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#iconWhats {
+    height: 40px;
+    position: fixed;
+    top: 480px;
+    right: 50px;
+    background: green;
+    border: 2px solid #2FBFA1;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 170px;
+}

@@ -1,0 +1,25 @@
+.container__sponsors {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    a {
+        width: 200px;
+        padding: 5px;
+        img {
+            display: inline-block;
+            width: 95px;
+            padding: 5px;
+        }
+    }
+}
+
+.container__sponsors__imgSponsor {
+    width: 180px;
+    height: 80px;
+}
+
+.iconTarjetas {
+    width: 70px;
+    height: 50px;
+}

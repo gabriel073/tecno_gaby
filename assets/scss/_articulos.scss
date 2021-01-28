@@ -1,0 +1,21 @@
+.mainArt {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgArt {
+    width: 300px;
+    height: 300px;
+}
+
+.card {
+    width: 24rem;
+    margin: 10px;
+}
+
+.card-text {
+    color: black;
+}

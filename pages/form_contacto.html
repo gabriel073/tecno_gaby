@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- **************************** LOS META ************************************************************** -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En Tecno-Gaby nos especializamos en la Venta de Hardware para todo tipo de Pc y Perifericos.">
+    <meta name="keywords" content="Hardware, Perifericos, Venta, Pc Gamer, Pc Escritorio, Notebook, Netbook, Tablet">
+
+    <!-- **************************** BOOSTRAP ************************************************************** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- ****************************** ESTILOS ************************************************************ -->
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+
+    <!-- ******************************** GOOGLE FONTS **** ************************************************* -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <!--******************************** ICONO DE PESTAÑAS **** ********************************************** -->
+    <link rel="shortcut icon" href="../assets/imgs/android-icon-48x48.png" type="image / x-icon">
+
+    <!-- **************************************** EFECTOS ******************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Formulario Contacto</title>
+</head>
+
+<body>
+    <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
+    <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" alt="whats"></a>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/imgs/logo.png" class="animate__animated animate__flipOutX" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover" href="../pages/novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover" href="../pages/promos.html">Promociones</a>
+                        </li>
+                        <li class="nav-item dropdown hover">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contactos
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item hover" href="../pages/contacto.html">Contacto / Ubicacion</a></li>
+                                <li><a class="dropdown-item hover" href="../pages/locales.html">Sucursales</a></li>
+                                <li><a class="dropdown-item hover" href="../pages/nosotros.html">Nosotros</a></li>
+                                <li><a class="dropdown-item hover" href="../pages/form_contacto.html">Formulario Contacto</a></li>
+                                <li><a class="dropdown-item hover" href="../pages/term_cond.html">Terminos y Condiciones</a></li>
+                            </ul>
+                        </li>
+                        <form class="d-flex">
+                            <input class="form-control me-2 hoverSearch" type="search" placeholder="Buscar..." aria-label="Search">
+                            <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main__form">
+        <div class="d-flex justify-content-center">
+            <h1>COMPLETA EL FORMULARIO</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="form">
+                <fieldset>
+                    <legend>Formulario Contacto</legend>
+                    <div class="formulario ">
+                        <form action="post">
+                            <div class="d-flex row">
+
+                                <label for="nombre">Nombre</label>
+                                <input name="nombre" type="text" autofocus placeholder="Ingrese su Nombre..." required>
+
+                                <label for="apellido">Apellido</label>
+                                <input name="apellido" type="text" placeholder="Ingrese su Apellido..." required>
+
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="Ingrese su Email..." required>
+
+                                <label for="tel">Telefono</label>
+                                <input type="tel" name="tel" placeholder="Ingrese su Telefono..." required>
+
+                                <label for="estado civil">Estado Civil:</label>
+                                <select name="estado civil"> 
+                      <option value="Soltero">Soltero</option>
+                      <option value="Casado">Casado</option>
+                      <option value="Divorciado">Divorciado</option>
+                       </select>
+
+                                <label for="como">Como nos Conociste?</label>
+                                <input type="text" name="como" placeholder="Cuentanos como...">
+
+                                <label for="newslatter">Desea Recibir el Newslatter?</label>
+                                <input type="checkbox" name="newslatter">
+                            </div>
+                            <label for="consultas">Consulta / Comentario</label>
+                            <textarea name="consultas" maxlength="500" placeholder="Hasta 500 caracteres..." rows="10" cols="60" required></textarea>
+
+                            <input type="reset" id="limpiar">
+                            <input type="submit" id="enviar"></input>
+                        </form>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <!-- ***************************************************** BANNER DE NEWSLETTER ************************************************ -->
+    <hr>
+    <div class="newsletter">
+        <h2 class="title-h2">SUSCRIBITE A NUESTRO NEWSLETTER </h2>
+        <form action="post">
+            <input name="enviar" type="email" placeholder="Ingrese su Mail..."></input>
+            <input type="submit" id="enviar"></input>
+        </form>
+    </div>
+    <hr>
+    <!-- ******************************************************* FOOTER ********************************************************* -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-xl-6">
+                    <h5>INSTITUCIONAL</h5>
+                    <ul>
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../pages/locales.html">Locales</a>
+                        </li>
+                        <li>
+                            <a href="../pages/form_contacto.html">Formulario Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-xl-6">
+                    <h5>AYUDA</h5>
+                    <ul class="h5__listAyuda--colorTexto">
+                        <li>
+                            <a href="../pages/preg_frec.html">Preguntas Frecuentes</a></li>
+                        <li>
+                            <a href="../pages/term_cond.html">Terminos y Condiciones</a></li>
+                        <li>
+                            <a href="../pages/promos.html">Promos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-end">
+                    <p>Seguinos en Nuestras Redes:</p>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../assets/imgs/face-32x32.png" alt="Face" class="imgRedes"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/imgs/insta-32x32.png" alt="Insta" class="imgRedes"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="../assets/imgs/twitter-32x32.png" alt="Twetter" class="imgRedes"></a>
+                    <a href="../pages/form_contacto.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons contain"></a>
+                </div>
+            </div>
+            <div class=" d-flex flex-row justify-content-center align-items-end">
+                <p>&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+            </div>
+    </footer>
+    <!-- **************************************************** SCRIPT BOOSTRAP *********************************************************** -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+</body>
+
+</html>

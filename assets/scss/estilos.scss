@@ -1,0 +1,152 @@
+@import "header";
+@import "sponsors";
+@import "footer";
+@import "menu";
+@import "pageContacto";
+@import "novedades";
+@import "articulos";
+@import "galeriaImgs";
+@import "mediaQueries";
+
+/********************************************* ESTILOS PAGES GENERALES *********************************************/
+
+p {
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background: linear-gradient(259deg, rgba(2, 0, 36, 1) 0%, rgba(17, 17, 162, 0.8211659663865546) 22%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.5 em;
+    margin: 10px;
+    height: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    height: 40px;
+    width: 40px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter input {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarjets {
+    justify-content: center;
+}
+
+.tarjets img {
+    justify-content: flex-end;
+}
+
+video {
+    width: 95%;
+    margin: 10px;
+}
+
+$titles: ( "h1": #205b88, "h2": #038022, "h3": #C25E30);
+@each $title,
+$color in $titles {
+    .title-#{$title} {
+        color: $color;
+    }
+}
+
+
+/* ******************************************** ESTILOS PAGE FORMULARIO CONTACTO *********************************************/
+
+.main__form {
+    background-image: url(../imgs/escritura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        color: white;
+        box-shadow: 2px 2px 5px #999;
+        text-shadow: 2px 2px 2px #999;
+    }
+    legend {
+        text-shadow: 2px 2px 2px #999;
+    }
+}
+
+
+/* ******************************************** ESTILOS PAGE PROMOS *********************************************/
+
+.m-10 {
+    margin: 10px;
+}
+
+.img__mercPago--sizes {
+    height: 100px;
+    width: 400px;
+}
+
+
+/***************************************** ESTILOS PAGE PREG FRECUENTES ************************************/
+
+.li__estiloLista {
+    list-style: square;
+    margin-left: 10px;
+}
+
+.parrafo__colorText--black {
+    color: black;
+}
+
+.main__preguntasFrec {
+    background-image: url(../imgs/Question.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        color: rgb(119, 119, 3);
+    }
+    h3 {
+        color: coral;
+    }
+}
+
+
+/******************************************** ESTILOS PAGE NOSOTROS ***********************************************/
+
+.container__videoCorpo {
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+
+/******************************************** ESTILOS PAGE SUCURSALES *********************************************/
+
+.container__sucu--margen {
+    margin-top: 50px;
+}
+
+section ul li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    width: 400px;
+}
+
+.container__sucursales {
+    h1 {
+        text-shadow: 2px 2px 2px rgb(206, 198, 198);
+    }
+}
+
+.container__ubicacion {
+    h1 {
+        text-shadow: 2px 2px 2px rgb(206, 198, 198);
+    }
+}

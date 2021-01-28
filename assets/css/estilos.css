@@ -1,0 +1,470 @@
+.hover:hover {
+    color: white;
+    background-color: #8080c7;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.hoverSearch:hover {
+    background-color: #8080c7;
+}
+
+.animate__flipOutX {
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#iconWhats {
+    height: 40px;
+    position: fixed;
+    top: 480px;
+    right: 50px;
+    background: green;
+    border: 2px solid #2FBFA1;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 170px;
+}
+
+.container__sponsors {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container__sponsors a {
+    width: 200px;
+    padding: 5px;
+}
+
+.container__sponsors a img {
+    display: inline-block;
+    width: 95px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.container__sponsors__imgSponsor {
+    width: 180px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+.video {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.iconTarjetas {
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.fotAyud li,
+a:hover {
+    color: rgba(193, 1, 231, 0.842);
+}
+
+.h5__listAyuda--colorTexto li,
+a {
+    color: darkblue;
+}
+
+#footerContacto li a {
+    color: white;
+}
+
+#derechosCont {
+    text-align: center;
+    color: white;
+    font-size: 1.375em;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer .menuFooter ul li a:hover {
+    color: #1204ddad;
+}
+
+.imgRedes {
+    margin: 5px;
+    border-radius: 70%;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 0;
+    padding: 10px;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li a {
+    font-family: 'Ranchers', cursive;
+    color: #f0dad1;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+}
+
+.menu ul li a:hover {
+    background: #20C7FF;
+    color: black;
+    border-radius: 20px;
+}
+
+.menu ul li ul li a {
+    font-size: 16px;
+    padding: 7px;
+}
+
+.fondo {
+    background-image: url(../imgs/fondo_harware.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#menu li a,
+p {
+    color: white;
+}
+
+.contactar p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.formulario {
+    width: 500px;
+}
+
+.iconMap {
+    height: 50px;
+    width: 50px;
+}
+
+.iconsTransp {
+    width: 80px;
+}
+
+.map iframe {
+    width: 600px;
+}
+
+.map {
+    justify-content: center;
+}
+
+.styleTextP {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.styleTitleTable {
+    color: #189900;
+}
+
+.publicidad {
+    text-align: center;
+    padding: 10px;
+}
+
+.animate__rubberBand {
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.imgCarrousel {
+    height: 500px;
+}
+
+.mainArt {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgArt {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+.card {
+    width: 24rem;
+    margin: 10px;
+}
+
+.card-text {
+    color: black;
+}
+
+.container__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galleryItem {
+    position: relative;
+}
+
+.container__galleryItem:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+.container__galleryItem:nth-child(5) {
+    grid-row-start: span 2;
+}
+
+.container__galleryItem:nth-child(9) {
+    grid-column-start: span 2;
+}
+
+.galleryTittle {
+    position: absolute;
+    bottom: 0;
+    color: lime;
+    background: linear-gradient(rgba(255, 255, 255, 0), black);
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.galleryImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galleryImg:hover {
+    transform: scale(1.8, 1.8);
+    transition: 3s;
+}
+
+.imgArt:hover {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    transition: 4s;
+}
+
+@media (min-whidth: 768px) {
+    .galleryContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .galleryItem:nth-child(3) {
+        grid-column-start: span 2;
+    }
+    .galleryItem:nth-child(4) {
+        grid-column-start: span 3;
+    }
+    .galleryItem:nth-child(5) {
+        grid-row-start: span 3;
+    }
+    .galleryItem:nth-child(9) {
+        grid-column-start: span 3;
+    }
+}
+
+.parrafo__quienes--size {
+    font-size: 30px;
+    color: #08088d;
+    text-shadow: 3px 2px #618991;
+}
+
+@media (min-whidth: 1024px) {
+    .galleryContainer {
+        grid-template-columns: repeat(5, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+    .galleryItem:nth-child(1) {
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+    .galleryItem:nth-child(4) {
+        grid-column-start: span 3;
+        grid-row-start: span 3;
+    }
+}
+
+
+/********************************************* ESTILOS PAGES GENERALES *********************************************/
+
+p {
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background: linear-gradient(259deg, #020024 0%, rgba(17, 17, 162, 0.821166) 22%, #00d4ff 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.5 em;
+    margin: 10px;
+    height: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    height: 40px;
+    width: 40px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter input {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarjets {
+    justify-content: center;
+}
+
+.tarjets img {
+    justify-content: flex-end;
+}
+
+video {
+    width: 95%;
+    margin: 10px;
+}
+
+.title-h1 {
+    color: #205b88;
+}
+
+.title-h2 {
+    color: #038022;
+}
+
+.title-h3 {
+    color: #C25E30;
+}
+
+
+/* ******************************************** ESTILOS PAGE FORMULARIO CONTACTO *********************************************/
+
+.main__form {
+    background-image: url(../imgs/escritura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__form h1 {
+    color: white;
+    box-shadow: 2px 2px 5px #999;
+    text-shadow: 2px 2px 2px #999;
+}
+
+.main__form legend {
+    text-shadow: 2px 2px 2px #999;
+}
+
+
+/* ******************************************** ESTILOS PAGE PROMOS *********************************************/
+
+.m-10 {
+    margin: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.img__mercPago--sizes {
+    height: 100px;
+    width: 400px;
+}
+
+
+/***************************************** ESTILOS PAGE PREG FRECUENTES ************************************/
+
+.li__estiloLista {
+    list-style: square;
+    margin-left: 10px;
+}
+
+.parrafo__colorText--black {
+    color: black;
+}
+
+.main__preguntasFrec {
+    background-image: url(../imgs/Question.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__preguntasFrec h1 {
+    color: #777703;
+}
+
+.main__preguntasFrec h3 {
+    color: coral;
+}
+
+
+/******************************************** ESTILOS PAGE NOSOTROS ***********************************************/
+
+.container__videoCorpo {
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+
+
+/******************************************** ESTILOS PAGE SUCURSALES *********************************************/
+
+.container__sucu--margen {
+    margin-top: 50px;
+}
+
+section ul li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    width: 400px;
+}
+
+.container__sucursales h1 {
+    text-shadow: 2px 2px 2px #cec6c6;
+}
+
+.container__sucursales {
+    padding-right: 130px;
+}
+
+.container__ubicacion h1 {
+    text-shadow: 2px 2px 2px #cec6c6;
+}
