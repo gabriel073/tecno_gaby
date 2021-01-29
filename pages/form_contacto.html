@@ -73,23 +73,23 @@
     </header>
 
     <hr>
-    <div class="container-fluid d-flex">
-        <div class="row justify-content-center ">
+    <div class="container-fluid d-flex fondo">
+        <div class="row justify-content-center col-xl-6 mx-auto">
             <h1>COMPLETA EL FORMULARIO</h1>
             <fieldset>
                 <legend>Formulario Contacto</legend>
 
                 <form>
-                    <div class="row mb-4">
+                    <div class="row mb-4 ">
                         <div class="col">
                             <div class="form-outline">
-                                <input type="text" id="form6Example1" class="form-control" />
+                                <input type="text" id="form6Example1" class="form-control" autofocus placeholder="Ingrese su Nombre... " required/>
                                 <label class="form-label" for="form6Example1">Nombre</label>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col ">
                             <div class="form-outline">
-                                <input type="text" id="form6Example2" class="form-control" />
+                                <input type="text" id="form6Example2" class="form-control" placeholder="Ingrese su Apellido... " required/>
                                 <label class="form-label" for="form6Example2">Apellido</label>
                             </div>
                         </div>
@@ -97,13 +97,13 @@
 
 
                     <div class="form-outline mb-4">
-                        <input type="email" id="form6Example5" class="form-control" />
-                        <label class="form-label" for="form6Example5">Email</label>
+                        <input type="email" id="form6Example5" class="form-control" placeholder="Ingrese su Email... " required/>
+                        <label class="form-label " for="form6Example5 ">Email</label>
                     </div>
 
                     <div class="form-outline mb-4">
-                        <input type="number" id="form6Example6" class="form-control" />
-                        <label class="form-label" for="form6Example6">Tel</label>
+                        <input type="number" id="form6Example6" class="form-control" placeholder="Ingrese su Telefono... " required/>
+                        <label class="form-label " for="form6Example6 ">Tel</label>
                     </div>
 
                     <div class="form-outline mb-4">
@@ -112,8 +112,8 @@
                     </div>
 
                     <div class="form-check d-flex justify-content-center mb-4">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-                        <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                        <input class="form-check-input me-2" type="checkbox" value=" " id="form6Example8" checked />
+                        <label class="form-check-label" for="form6Example8 "> Create an account? </label>
                     </div>
             </fieldset>
 
@@ -122,63 +122,13 @@
         </div>
     </div>
 
-
-    <!-- <div class="main__form container-fluid">
-        <div class="d-flex justify-content-center col-12">
-            <h1>COMPLETA EL FORMULARIO</h1>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="form">
-                <fieldset>
-                    <legend>Formulario Contacto</legend>
-                    <div class="formulario ">
-                        <form action="post">
-                            <div class="d-flex row">
-
-                                <label for=" nombre ">Nombre</label>
-                                <input class="container-fluid col-12" name="nombre " type="text " autofocus placeholder="Ingrese su Nombre... " required>
-
-                                <label for="apellido ">Apellido</label>
-                                <input name="apellido " type="text " placeholder="Ingrese su Apellido... " required>
-
-                                <label for="email ">Email</label>
-                                <input type="email " name="email " placeholder="Ingrese su Email... " required>
-
-                                <label for="tel ">Telefono</label>
-                                <input type="tel " name="tel " placeholder="Ingrese su Telefono... " required>
-
-                                <label for="estado civil ">Estado Civil:</label>
-                                <select name="estado civil "> 
-
-                      <option value="Soltero ">Soltero</option>
-                      <option value="Casado ">Casado</option>
-                      <option value="Divorciado ">Divorciado</option>
-                       </select>
-
-                                <label for="como ">Como nos Conociste?</label>
-                                <input type="text " name="como " placeholder="Cuentanos como... ">
-
-                                <label for="newslatter ">Desea Recibir el Newslatter?</label>
-                                <input type="checkbox " name="newslatter ">
-                            </div>
-                            <label for="consultas ">Consulta / Comentario</label>
-                            <textarea name="consultas " maxlength="500 " placeholder="Hasta 500 caracteres... " rows="10 " cols="60 " required></textarea>
-                            <br>
-                            <button type="reset " id="limpiar "></button>
-                            <button type="submit " id="enviar "></button>
-                        </form>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-    </div> -->
     <!-- ***************************************************** BANNER DE NEWSLETTER ************************************************ -->
     <hr>
     <div class="newsletter ">
         <h2 class="title-h2 ">SUSCRIBITE A NUESTRO NEWSLETTER </h2>
         <form action="post ">
             <input name="enviar " type="email " placeholder="Ingrese su Mail... "></input><br>
-            <button type="submit " id="enviar " class="btn btn-primary btn-block mb-4">Inscribir</button>
+            <button type="submit " id="enviar " class="btn btn-primary btn-block mb-4 ">Inscribir</button>
         </form>
     </div>
     <hr>
