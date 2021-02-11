@@ -9,7 +9,8 @@
     <meta name="keywords" content="Hardware, Perifericos, Venta, Pc Gamer, Pc Escritorio, Notebook, Netbook, Tablet">
 
     <!-- **************************** BOOSTRAP ************************************************************** -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- ****************************** ESTILOS ************************************************************ -->
     <link rel="stylesheet" href="assets/css/estilos.css">
@@ -27,32 +28,33 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
-        <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="assets/imgs/icon-whats.svg" id="iconWhats" alt="whats"></a>
+        <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="assets/imgs/icon-whats.svg" id="iconWhats" class="whats" alt="whats"></a>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo.png" class="animate__animated animate__flipOutX" alt="Logo-Tecno-Gaby"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end ">
+                <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2 hoverSearch " type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                </form>
+                <div class="collapse navbar-collapse justify-content-end m-10" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <div class="d-flex ">
                             <li class="nav-item">
                                 <a class="nav-link active hover" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hover" href="pages/productos.html">Productos</a>
+                                <a class="nav-link hover" href="    pages/productos.html">Productos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link hover" href="pages/novedades.html">Novedades</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover" href="pages/promos.html">Promociones</a>
-                            </li>
-                            <li class="nav-item dropdown hover">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown hover ">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Contactos
                             </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -60,76 +62,76 @@
                                     <li><a class="dropdown-item hover" href="pages/locales.html">Sucursales</a></li>
                                     <li><a class="dropdown-item hover" href="pages/nosotros.html">Nosotros</a></li>
                                     <li><a class="dropdown-item hover" href="pages/form_contacto.html">Formulario Contacto</a></li>
-                                    <li><a class="dropdown-item hover" href="pages/term_cond.html">Terminos y Condiciones</a></li>
                                 </ul>
                             </li>
-                            <form class="d-flex">
-                                <input class="form-control me-2 hoverSearch" type="search" placeholder="Buscar..." aria-label="Search">
-                                <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
-                            </form>
-                        </ul>
-                    </div>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="pages/promos.html">Promociones</a>
+                            </li>
+                        </div>
+                    </ul>
                 </div>
             </nav>
         </header>
     </div>
-    <h1 class="title-h1">Harware PC</h1>
+    <h1 class="title-h1">Hardware PC</h1>
     <hr>
     <div class="mainArt row">
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/memo-ram.jpg" class="card-img-top" alt="memoRam">
+            <img src="assets/imgs/memo-ram.jpg" class="card-img-top imgArt" alt="memoRam">
             <div class="card-body">
                 <h5 class="card-title">Memorias Ram DDR4</h5>
-                <p class="card-text">Brand Ballistix Form Factor UDIMM Total Capacity 8GB Warranty Limited Lifetime Specs DDR4 PC4-21300 • 16-18-18 • Unbuffered • NON-ECC • DDR4-2666 • 1.2V • 1024Meg x 64 • Series Ballistix Sport ECC NON-ECC Speed 2666 MT/S Voltage 1.2V DIMM
+                <p class="text_color_target">Brand Ballistix Form Factor UDIMM Total Capacity 8GB Warranty Limited Lifetime Specs DDR4 PC4-21300 • 16-18-18 • Unbuffered • NON-ECC • DDR4-2666 • 1.2V • 1024Meg x 64 • Series Ballistix Sport ECC NON-ECC Speed 2666 MT/S Voltage 1.2V DIMM
                     Type Unbuffered</p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
+                </div>
             </div>
         </section>
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/monitor.jpg" class="card-img-top" alt="monitor">
+            <img src="assets/imgs/monitor.jpg" class="card-img-top imgArt" alt="monitor">
             <div class="card-body">
                 <h5 class="card-title">Monitor Apple 24"</h5>
-                <p class="card-text">La calidad de imagen importa. Las pantallas habituales ofrecen buena calidad, pero sabemos que tú esperas más. Esta pantalla cuenta con una resolución Full HD de 1920 x 1080. Gracias al Full HD podrás disfrutar de unos detalles nítidos
+                <p class="text_color_target">La calidad de imagen importa. Las pantallas habituales ofrecen buena calidad, pero sabemos que tú esperas más. Esta pantalla cuenta con una resolución Full HD de 1920 x 1080. Gracias al Full HD podrás disfrutar de unos detalles nítidos
                     y de un gran brillo, así como un contraste increíble y colores realistas para una imagen que parece cobrar vida.</p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
             </div>
         </section>
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/teclado.jpg" class="card-img-top" alt="teclado">
+            <img src="assets/imgs/teclado.jpg" class="card-img-top imgArt" alt="teclado">
             <div class="card-body">
                 <h5 class="card-title">teclado Inalambrico Apple</h5>
-                <p class="card-text">Altura: 132 mm Anchura: 445 mm Profundidad: 34 mm Peso (sin cable): 1.105 g Cable: 1,8 m.</p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <p class="text_color_target">Altura: 132 mm Anchura: 445 mm Profundidad: 34 mm Peso (sin cable): 1.105 g Cable: 1,8 m.</p>
+                <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
             </div>
         </section>
     </div>
     <div class="mainArt row">
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/mouse.jpg" class="card-img-top" alt="mouse">
+            <img src="assets/imgs/mouse.jpg" class="card-img-top imgArt" alt="mouse">
             <div class="card-body">
                 <h5 class="card-title">Mouse Inalambrico Logitech</h5>
-                <p class="card-text">Ajuste de DPI on-the-fly hasta 3200 DPI – 6 botones, incluyendo 2 botones laterales programables – 8 pesas customizables de 2.4g – 4000 la tasa de respuesta fotogramas por segundo – Construido de plástico ABS de alta gama – Rueda de desplazamiento
+                <p class="text_color_target">Ajuste de DPI on-the-fly hasta 3200 DPI – 6 botones, incluyendo 2 botones laterales programables – 8 pesas customizables de 2.4g – 4000 la tasa de respuesta fotogramas por segundo – Construido de plástico ABS de alta gama – Rueda de desplazamiento
                     antideslizante – Cable de 1.8m acordonado de alta resistencia – Retroiluminación de color rojo</p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
             </div>
         </section>
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/speaker.jpg" class="card-img-top" alt="speaker">
+            <img src="assets/imgs/speaker.jpg" class="card-img-top imgArt" alt="speaker">
             <div class="card-body">
                 <h5 class="card-title">Speak Inalambrico</h5>
-                <p class="card-text">Disfruta de ritmos sensacionales mientras te desplazas con el parlante inalámbrico portátil SRS-XB12. Con EXTRA BASS™ para un sonido profundo e impactante y una duración de la batería de hasta 16 horas1, también es resistente al agua y
+                <p class="text_color_target">Disfruta de ritmos sensacionales mientras te desplazas con el parlante inalámbrico portátil SRS-XB12. Con EXTRA BASS™ para un sonido profundo e impactante y una duración de la batería de hasta 16 horas1, también es resistente al agua y
                     al polvo2 para tu tranquilidad. Tienda Oficial Apple Argentina Parlante Portatil Bluetooth Apple Inalambrico XB12 Extra Bass
                 </p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
             </div>
         </section>
         <section class="card col-12 col-xl-4">
-            <img src="assets/imgs/mother-asus.png" class="card-img-top" alt="mother-asus">
+            <img src="assets/imgs/mother-asus.png" class="card-img-top img__mother--size imgArt" alt="mother-asus">
             <div class="card-body">
                 <h5 class="card-title">Mother Asus-I8</h5>
-                <p class="card-text">Marca: Asus-I8 Modelo: GA-E6010N -Zócalo: I8 -CPU Compatibles: I8-6010 Cual-Core (Incluido en la mother) -Ranuras PCIe: 1x PCI Slot -Puerto de almacenamiento: 2x Sata -Chipset: AMD I8-6010 -RAM Capacidad/Velocidad máx.: 32GB/1333MHz -Puertos
+                <p class="text_color_target">Marca: Asus-I8 Modelo: GA-E6010N -Zócalo: I8 -CPU Compatibles: I8-6010 Cual-Core (Incluido en la mother) -Ranuras PCIe: 1x PCI Slot -Puerto de almacenamiento: 2x Sata -Chipset: AMD I8-6010 -RAM Capacidad/Velocidad máx.: 32GB/1333MHz -Puertos
                     USB: 2x USB 3.1 / 4x USB 2.0 -Puertos de video: 1x HDMI / 1x VGA -Factor de forma: mini ITX SKU 6010</p>
-                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                <a href="#" class="btn btn-secondary">Agregar al Carrito</a>
             </div>
         </section>
     </div>
@@ -139,7 +141,7 @@
         <section class="row container__sponsors">
             <div class="container__sponsors col-xl-12 col-sm-6">
                 <a href="https://www.dell.com.ar/" target="_blank"><img src="assets/imgs/logo-dell.jpg" alt="DELL" class="container__sponsors__imgSponsor"></a>
-                <a href="https://www.nvidia.com/es-la/" target="_blank"><img src="assets/imgs/logo-nvidia.jpg" alt="NVIDIA" class="container__sponsors__imgSponso6"></a>
+                <a href="https://www.nvidia.com/es-la/" target="_blank"><img src="assets/imgs/logo-nvidia.jpg" alt="NVIDIA" class="container__sponsors__imgSponsor"></a>
                 <a href="https://www8.hp.com/ar/es/home.html" target="_blank"><img src="assets/imgs/logo-hp.jpg" alt="HP" class="container__sponsors__imgSponsor"></a>
                 <a href="https://es.geniusnet.com/" target="_blank"><img src="assets/imgs/genius.svg" alt="Genius" class="container__sponsors__imgSponsor"></a>
                 <a href="https://www.gigabyte.com/ar" target="_blank"><img src="assets/imgs/logo-gigabyte.png" alt="Gigabyte" class="container__sponsors__imgSponsor"></a>
@@ -148,59 +150,56 @@
         </section>
     </div>
     <hr>
-    <div class="newsletter">
-        <h2 class="newsletter title-h2" id="newsletter">SUSCRIBITE A NUESTRO NEWSLETTER</h2>
-        <form action="post">
-            <input name="enviar" type="email" placeholder="Ingrese su Mail..."></input>
-            <input type="submit" id="enviar"></input>
-        </form>
-    </div>
+    <form class="newsletter">
+        <h2 class="newsletter card-body" id="newsletter">SUSCRIBITE A NUESTRO NEWSLETTER</h2>
+        <input class="size_input  me-2 hoverSearch " type="mail" placeholder="Ingrese su Mail..." aria-label="mail">
+        <button class="btn btn-outline-success hoverSearch title-h2" type="submit">Enviar</button>
+    </form>
     <hr>
     <!-- ***************************************************** FOOTER ******************************************** -->
 
     <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 col-xl-6">
-                    <h5>INSTITUCIONAL</h5>
-                    <ul>
-                        <li>
-                            <a href="pages/locales.html">Locales</a> </li>
-                        <li>
-                            <a href="pages/contacto.html">Contacto</a></li>
-                        <li>
-                            <a href="pages/form_contacto.html">Formulario Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-xl-6">
-                    <h5>AYUDA</h5>
-                    <ul class="h5__listAyuda--colorTexto ">
-                        <li>
-                            <a href="pages/preg_frec.html">Preguntas Frecuentes</a></li>
-                        <li>
-                            <a href="pages/term_cond.html">Terminos y Condiciones</a></li>
-                        <li>
-                            <a href="pages/promos.html">Promos</a>
-                        </li>
-                    </ul>
+        <div class="container-fluid d-flex justify-content-around">
+            <div class="footer__institu">
+                <h5>INSTITUCIONAL</h5>
+                <ul>
+                    <li>
+                        <a href="pages/locales.html">Locales</a> </li>
+                    <li>
+                        <a href="pages/contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="pages/form_contacto.html">Formulario Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__ayuda">
+                <h5>AYUDA</h5>
+                <ul class="h5__listAyuda--colorTexto ">
+                    <li>
+                        <a href="pages/preg_frec.html">Preguntas Frecuentes</a></li>
+                    <li>
+                        <a href="pages/term_cond.html">Terminos y Condiciones</a></li>
+                    <li>
+                        <a href="pages/promos.html">Promos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__redes">
+                <p class="text_color_target">Seguinos en Nuestras Redes:</p>
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook imgRedes"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram imgRedes"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter imgRedes"></i></a>
+            </div>
+        </div>
+        <div class class="container-fluid">
+            <div>
+                <p class="text_color_target">&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+                <div class="d-flex row conteiner__arrow">
+                    <a href="index.html"><img src="assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 d-flex flex-row justify-content-end">
-                    <p>Seguinos en Nuestras Redes:</p>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="assets/imgs/face-32x32.png" alt="Face" class="imgRedes"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="assets/imgs/insta-32x32.png" alt="Insta" class="imgRedes"></a>
-                    <a href="https://twitter.com/" target="_blank"><img src="assets/imgs/twitter-32x32.png" alt="Twetter" class="imgRedes"></a>
-                    <a href="index.html"><img src="assets/imgs/icon-row.svg" alt="Inicio" class="icons contain"></a>
-                </div>
-            </div>
-            <div class=" d-flex flex-row justify-content-center align-items-end">
-                <p>&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
-            </div>
     </footer>
-    </div>
+
     <!-- ********************************** SCRIPT BOOSTRAP ****************************** -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>

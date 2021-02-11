@@ -10,8 +10,8 @@
     <meta name="keywords" content="Hardware, Perifericos, Venta, Pc Gamer, Pc Escritorio, Notebook, Netbook, Tablet">
 
     <!-- **************************** BOOSTRAP ************************************************************** -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- ****************************** ESTILOS ************************************************************ -->
     <link rel="stylesheet" href="../assets/css/estilos.css">
 
@@ -28,122 +28,123 @@
 </head>
 
 <body>
-    <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
-    <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" alt="whats"></a>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../assets/imgs/logo.png" class="animate__animated animate__flipOutX" alt="Logo-Tecno-Gaby"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/novedades.html">Novedades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/promos.html">Promociones</a>
-                        </li>
-                        <li class="nav-item dropdown hover">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Contactos
-                        </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item hover" href="../pages/contacto.html">Contacto / Ubicacion</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/locales.html">Sucursales</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/nosotros.html">Nosotros</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/form_contacto.html">Formulario Contacto</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/term_cond.html">Terminos y Condiciones</a></li>
-                            </ul>
-                        </li>
-                        <form class="d-flex">
-                            <input class="form-control me-2 hoverSearch" type="search" placeholder="Buscar..." aria-label="Search">
-                            <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
-                        </form>
+    <div class="container-fluid ">
+        <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
+        <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" class="whats" alt="whats"></a>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end ">
+                <a class="navbar-brand" href="index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2 hoverSearch " type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                </form>
+                <div class="collapse navbar-collapse justify-content-end m-10" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <div class="d-flex ">
+                            <li class="nav-item">
+                                <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/novedades.html">Novedades</a>
+                            </li>
+                            <li class="nav-item dropdown hover ">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contactos
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item hover" href="../pages/contacto.html">Contacto / Ubicacion</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/locales.html">Sucursales</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/form_contacto.html">Formulario Contacto</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/promos.html">Promociones</a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <hr>
-    <main class="d-flex row">
-        <h1>Terminos y condiciones</h1>
-        <section id="Layer1">
-            <p>Esta sección detalla los términos y condiciones generales sobre el acceso y uso de los servicios ofrecidos por xxxx.com.ar en este sitio. Al ingresar como usuario a xxxx.com.ar, significa que se conocen y aceptan éstas condiciones de acceso
-                y uso. Si el usuario no está de acuerdo con las condiciones de acceso o de uso, o con cualquier cambio o modificación de las mismas, no deberá continuar utilizando el sitio ni los servicios ofrecidos en el mismo. Si un usuario utiliza
-                este sitio, significa que ha aceptado plenamente los Términos y Condiciones de xxxx.com.ar , obligándose a cumplir expresamente con los mismos. 1- Usuarios que pueden utilizar el servicio Los servicios pueden ser utilizados por personas
-                que tengan capacidad legal para contratar. No podrán utilizar los servicios las personas que no tengan esa capacidad, los menores de edad o usuarios que hayan sido suspendidos temporal o definitivamente por xxxx.com.ar . Quien registre
-                como usuario una persona jurídica, deberá tener capacidad para contratar a nombre de tal entidad y de obligar a la misma en los términos de estas Condiciones de Uso. 2- Registración como usuario La registración en xxx.com.ar es gratuita.
-                El usuario al realizar el proceso de registración, se compromete a completar los datos solicitados con datos válidos, exactos y precisos, asumiendo el compromiso de actualizar los datos personales según corresponda. Los Usuarios garantizan
-                y responden, en cualquier caso, de la veracidad, exactitud, vigencia y autenticidad de los datos personales ingresados. Al registrarse, el usuario dispondrá de un nombre y contraseña de acceso segura y confidencial, pudiendo cambiar la
-                misma, según el procedimiento establecido para tal fin. xxxx.com.ar se reserva el derecho de rechazar cualquier solicitud de registración o de cancelar una registración previamente aceptada, sin que esté obligado a comunicar o exponer
-                las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento. 3- Utilización de la contraseña de usuario El Usuario se compromete a no divulgar su contraseña (clave de acceso) a terceros. Ésta clave permite
-                efectuar compras, solicitar servicios y obtener información. Dicha clave es de uso personal y su entrega a terceros, no involucra responsabilidad de xxx.com.ar en caso de mala utilización. El usuario se compromete a notificar a xxxxx.com.ar
-                en forma inmediata y por medio idóneo y fehaciente, cualquier uso no autorizado de su Cuenta. 4- Confidencialidad de datos xxxx.com.ar cumplimentó los requisitos que exige la Ley Nº 25.326 de Protección de Datos Personales difundida por
-                la Dirección Nacional de Protección de Datos Personales. En cumplimiento con la Disposición N° 10, publicada en el Boletín Oficial el 18-09-08, se informa que: (i) Los titulares de datos personales tienen la facultad de ejercer el derecho
-                de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto (en cuyo caso, la limitación temporal referida anteriormente no será aplicable). (ii) La Dirección Nacional
-                de Datos de Protección de Datos Personales tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales. Los datos personales que el usuario
-                brinde a xxxx.com.ar , tales como nombres, fecha de nacimiento, domicilio, número telefónico, país, código postal, correo electrónico, , y/o cualquier otro que el usuario voluntariamente suministre, son incluidos en archivos automatizados,
-                procesados bajo normas de estricta confidencialidad y protección de datos. La información es utilizada por xxxx.com.ar con el único objeto de mejorar la oferta de servicios a sus usuarios y podrá ser utilizada para acciones promocionales
-                de marketing. La información personal obtenida del usuario no será revelada a terceras personas sin su consentimiento previo, salvo requerimiento de autoridad competente. El usuario podrá, en cualquier momento, ejercer su derecho a acceder,
-                rectificar, actualizar, cancelar y/o suprimir sus datos personales de conformidad a lo previsto en la Ley 25.326, por medio de nota o presentación escrita con firma certificada, medio postal o telegráfico y/o carta documento acreditando
-                fehacientemente su identidad. Los servicios de emisión de información a nuestros usuarios vía correo electrónico, correo postal y mensaje de texto (SMS) , cuentan con la autorización del usuario, y en el caso de que el usuario no deseara
-                recibir este tipo de información podrá solicitarlo a xxxx.com.ar por medio fehaciente, o por los medios de contactos provistos en el sitio. La utilización de cualquiera de los servicios de a xxxx.com.ar será considerado como aceptación
-                de los términos de esta Política de Privacidad por parte del usuario. 5- Compra de productos o servicios en a xxxx.com.ar Para realizar una compra, el usuario puede recorrer el sitio, seleccionando y cargando virtualmente al carrito los
-                productos que desee, indicando en cada caso la cantidad requerida. Una vez de aceptada la compra por el usuario, su ejecutivo comercial se contactará para confirmar forma de pago, plazo y entrega. Puede ocurrir excepcionalmente, que luego
-                de la aceptación de la compra, a xxxx.com.ar cancele la misma por alguno de los siguientes motivos: disponibilidad de stock; o problemas identificados por el departamento de prevención de fraude. a xxxx.com.ar puede necesitar información
-                adicional o realizar verificaciones antes de aceptar cualquier compra. Si se cancela su compra o si se necesita información adicional, nos pondremos en contacto con el usuario. Los comprobantes que se emiten para las compras de productos
-                es Factura tipo A o B según el cliente lo requiere, las mismas son electrónicas y podrán acceder a ellas con la clave personal. 6- Medios de pagos Los medios de pago habilitados para realizar compras en xxxx.com.ar son: Tranferencia bancaria,
-                Efectivo, y Tarjetas de Crédito. xxxx.com.ar podrá hacer que terceras empresas reciban el cobro y facturen para cumplir la orden de compra del cliente, en tales casos siempre será por cuenta y orden de xxxx.com.ar .. En caso de tener el
-                cliente una linea de credito asignada, y haber elegido como medio de pago "Cheque" (propio o tercero), si el mismo resulta rechazado por cualquier motivo, se considera en mora automática desde la fecha establecida como de pago, y deberá
-                saldar el monto con más gastos administrativos e intereses compensatorios, moratorios, y punitorios que la demora ocasione, sin perjuicio de las acciones legales que le pudieran corresponder. 7- Servicio de Entrega de productos El costo
-                del servicio de entrega depende de las dimensiones del o de los productos que se adquieran y de la dirección de entrega de los mismos. Dicho precio se define y es informado al usuario en el proceso de la compra. El plazo de entrega de
-                la compra, depende de la dirección de entrega y de la ubicación del depósito desde donde se envían los productos. xxxx.com.ar podrá hacer que terceros envíen y facturen productos al usuario para cumplir con la orden de compra. En tales
-                casos siempre será por cuenta y orden de xxxx.com.ar . 8- Servicio de Envío a domicilio La Empresa se reserva el derecho de definir el medio de entrega de los productos, acorde la disponibilidad del servicio. En el caso de que la entrega
-                se realice con logística propia, el servicio de envío a domicilio tendrá el siguiente alcance: La Empresa se compromete a hacer la entrega en domicilio: · Con embalaje adecuado y en condiciones. · Sin ticket/factura, al titular o persona
-                que éste autorice, acreditando identidad. Está prohibido al personal de reparto: · Ingresar productos por ventanas y balcones. · Desembalar, armar o instalar. · Entregar a un menor de edad. · Retirar productos, no respaldados por una operación
-                de cambio. Estas condiciones podrán ser modificadas por la Empresa. En el caso de que la entrega se realice con logística de Oca, Andreani o Cruz del Sur, el servicio de envío a domicilio tendrá el siguiente alcance: . Entrega en el domicilio
-                consignado en el remito. . Con embalaje adecuado y en condiciones -La entrega se realiza en el 1er acceso del domicilio o se retira en la sucursal de la empresa logística más cercana al domicilio del cliente si fue convenido de esa manera.
-                9- Precios de productos y promociones Los precios y promociones que se ofrecen en xxxx.com.ar , son exclusivos para el sitio, y no son aplicables a otros canales de ventas como ser: sucursales, ventas telefónicas, catálogos. La validez
-                de las promociones, depende de la fecha de vigencia de las mismas o de la disponibilidad del stock informado. Las promociones no son acumulables entre sí, salvo que se exprese lo contrario en el sitio. 10- Imágenes y descripciones de productos
-                Las fotos de los productos son ilustrativas y no contractuales. Las mismas son una ilustración de los productos debiendo el usuario confirmar el cumplimiento de sus requerimientos y necesidades antes de efectuar la compra. 11- Retractación
-                de la compra Para las compras realizadas por medio de éste sitio, el usuario podrá retractarse dentro del plazo de diez (10) días contados a partir de la entrega del producto. Pasado ese plazo, xxxx.com.ar buscará la mejor solución posible
-                en pos de la satisfacción del usuario. Los costos generados por la retractación de la compra serán a cargo del usuario. 12- Cambios, devolución y reparacion de productos La devolución del producto se puede realizar dentro del plazo enunciado
-                en el punto anterior (10 días corridos contados a partir de la entrega del producto). Para devoluciones, cambios y reparación autorizados, el producto debe estar en perfecto estado de uso, completo, con embalaje original, factura de compra.
-                Una vez recibido el producto en el lugar que xxxx.com.ar determine , se verificará y si cumple con los requisitos se procederá a la devolución, cambio o reparacion, según corresponda. En caso de garantía por reparación, y sin que hubiese
-                sido retirado el producto en el término de 90 dias corridos a contar desde el aviso de disponibilidad, xxxx.com.ar no estará obligado a su entrega y el cliente perderá todo derecho a reclamo. Para tramitar la devolución, cambio o reparacion
-                del producto, es necesario contactarse al Servicio de Atencion al cliente, donde un asesor le informará los pasos a seguir. 13- Inconvenientes de Sistemas xxxx.com.ar no puede garantizar el acceso y uso continuado o ininterrumpido de su
-                sitio. El sistema puede eventualmente no estar disponible, debido a dificultades técnicas o fallas de Internet, o por cualquier otra circunstancia ajena a la empresa; en tales casos se procurará restablecerlo con la mayor celeridad posible.
-            </p>
-        </section>
-    </main>
-    <hr>
-    <!-- ************************************************************ FOOTER ****************************************************************** -->
+            </nav>
+        </header>
+        <hr>
+        <main class="d-flex row">
+            <h1>Terminos y condiciones</h1>
+            <section id="Layer1">
+                <p class="text_color_target">Esta sección detalla los términos y condiciones generales sobre el acceso y uso de los servicios ofrecidos por xxxx.com.ar en este sitio. Al ingresar como usuario a xxxx.com.ar, significa que se conocen y aceptan éstas condiciones de acceso
+                    y uso. Si el usuario no está de acuerdo con las condiciones de acceso o de uso, o con cualquier cambio o modificación de las mismas, no deberá continuar utilizando el sitio ni los servicios ofrecidos en el mismo. Si un usuario utiliza
+                    este sitio, significa que ha aceptado plenamente los Términos y Condiciones de xxxx.com.ar , obligándose a cumplir expresamente con los mismos. 1- Usuarios que pueden utilizar el servicio Los servicios pueden ser utilizados por personas
+                    que tengan capacidad legal para contratar. No podrán utilizar los servicios las personas que no tengan esa capacidad, los menores de edad o usuarios que hayan sido suspendidos temporal o definitivamente por xxxx.com.ar . Quien registre
+                    como usuario una persona jurídica, deberá tener capacidad para contratar a nombre de tal entidad y de obligar a la misma en los términos de estas Condiciones de Uso. 2- Registración como usuario La registración en xxx.com.ar es gratuita.
+                    El usuario al realizar el proceso de registración, se compromete a completar los datos solicitados con datos válidos, exactos y precisos, asumiendo el compromiso de actualizar los datos personales según corresponda. Los Usuarios garantizan
+                    y responden, en cualquier caso, de la veracidad, exactitud, vigencia y autenticidad de los datos personales ingresados. Al registrarse, el usuario dispondrá de un nombre y contraseña de acceso segura y confidencial, pudiendo cambiar
+                    la misma, según el procedimiento establecido para tal fin. xxxx.com.ar se reserva el derecho de rechazar cualquier solicitud de registración o de cancelar una registración previamente aceptada, sin que esté obligado a comunicar o exponer
+                    las razones de su decisión y sin que ello genere algún derecho a indemnización o resarcimiento. 3- Utilización de la contraseña de usuario El Usuario se compromete a no divulgar su contraseña (clave de acceso) a terceros. Ésta clave
+                    permite efectuar compras, solicitar servicios y obtener información. Dicha clave es de uso personal y su entrega a terceros, no involucra responsabilidad de xxx.com.ar en caso de mala utilización. El usuario se compromete a notificar
+                    a xxxxx.com.ar en forma inmediata y por medio idóneo y fehaciente, cualquier uso no autorizado de su Cuenta. 4- Confidencialidad de datos xxxx.com.ar cumplimentó los requisitos que exige la Ley Nº 25.326 de Protección de Datos Personales
+                    difundida por la Dirección Nacional de Protección de Datos Personales. En cumplimiento con la Disposición N° 10, publicada en el Boletín Oficial el 18-09-08, se informa que: (i) Los titulares de datos personales tienen la facultad
+                    de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto (en cuyo caso, la limitación temporal referida anteriormente no será aplicable).
+                    (ii) La Dirección Nacional de Datos de Protección de Datos Personales tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales. Los
+                    datos personales que el usuario brinde a xxxx.com.ar , tales como nombres, fecha de nacimiento, domicilio, número telefónico, país, código postal, correo electrónico, , y/o cualquier otro que el usuario voluntariamente suministre,
+                    son incluidos en archivos automatizados, procesados bajo normas de estricta confidencialidad y protección de datos. La información es utilizada por xxxx.com.ar con el único objeto de mejorar la oferta de servicios a sus usuarios y
+                    podrá ser utilizada para acciones promocionales de marketing. La información personal obtenida del usuario no será revelada a terceras personas sin su consentimiento previo, salvo requerimiento de autoridad competente. El usuario podrá,
+                    en cualquier momento, ejercer su derecho a acceder, rectificar, actualizar, cancelar y/o suprimir sus datos personales de conformidad a lo previsto en la Ley 25.326, por medio de nota o presentación escrita con firma certificada, medio
+                    postal o telegráfico y/o carta documento acreditando fehacientemente su identidad. Los servicios de emisión de información a nuestros usuarios vía correo electrónico, correo postal y mensaje de texto (SMS) , cuentan con la autorización
+                    del usuario, y en el caso de que el usuario no deseara recibir este tipo de información podrá solicitarlo a xxxx.com.ar por medio fehaciente, o por los medios de contactos provistos en el sitio. La utilización de cualquiera de los
+                    servicios de a xxxx.com.ar será considerado como aceptación de los términos de esta Política de Privacidad por parte del usuario. 5- Compra de productos o servicios en a xxxx.com.ar Para realizar una compra, el usuario puede recorrer
+                    el sitio, seleccionando y cargando virtualmente al carrito los productos que desee, indicando en cada caso la cantidad requerida. Una vez de aceptada la compra por el usuario, su ejecutivo comercial se contactará para confirmar forma
+                    de pago, plazo y entrega. Puede ocurrir excepcionalmente, que luego de la aceptación de la compra, a xxxx.com.ar cancele la misma por alguno de los siguientes motivos: disponibilidad de stock; o problemas identificados por el departamento
+                    de prevención de fraude. a xxxx.com.ar puede necesitar información adicional o realizar verificaciones antes de aceptar cualquier compra. Si se cancela su compra o si se necesita información adicional, nos pondremos en contacto con
+                    el usuario. Los comprobantes que se emiten para las compras de productos es Factura tipo A o B según el cliente lo requiere, las mismas son electrónicas y podrán acceder a ellas con la clave personal. 6- Medios de pagos Los medios
+                    de pago habilitados para realizar compras en xxxx.com.ar son: Tranferencia bancaria, Efectivo, y Tarjetas de Crédito. xxxx.com.ar podrá hacer que terceras empresas reciban el cobro y facturen para cumplir la orden de compra del cliente,
+                    en tales casos siempre será por cuenta y orden de xxxx.com.ar .. En caso de tener el cliente una linea de credito asignada, y haber elegido como medio de pago "Cheque" (propio o tercero), si el mismo resulta rechazado por cualquier
+                    motivo, se considera en mora automática desde la fecha establecida como de pago, y deberá saldar el monto con más gastos administrativos e intereses compensatorios, moratorios, y punitorios que la demora ocasione, sin perjuicio de
+                    las acciones legales que le pudieran corresponder. 7- Servicio de Entrega de productos El costo del servicio de entrega depende de las dimensiones del o de los productos que se adquieran y de la dirección de entrega de los mismos.
+                    Dicho precio se define y es informado al usuario en el proceso de la compra. El plazo de entrega de la compra, depende de la dirección de entrega y de la ubicación del depósito desde donde se envían los productos. xxxx.com.ar podrá
+                    hacer que terceros envíen y facturen productos al usuario para cumplir con la orden de compra. En tales casos siempre será por cuenta y orden de xxxx.com.ar . 8- Servicio de Envío a domicilio La Empresa se reserva el derecho de definir
+                    el medio de entrega de los productos, acorde la disponibilidad del servicio. En el caso de que la entrega se realice con logística propia, el servicio de envío a domicilio tendrá el siguiente alcance: La Empresa se compromete a hacer
+                    la entrega en domicilio: · Con embalaje adecuado y en condiciones. · Sin ticket/factura, al titular o persona que éste autorice, acreditando identidad. Está prohibido al personal de reparto: · Ingresar productos por ventanas y balcones.
+                    · Desembalar, armar o instalar. · Entregar a un menor de edad. · Retirar productos, no respaldados por una operación de cambio. Estas condiciones podrán ser modificadas por la Empresa. En el caso de que la entrega se realice con logística
+                    de Oca, Andreani o Cruz del Sur, el servicio de envío a domicilio tendrá el siguiente alcance: . Entrega en el domicilio consignado en el remito. . Con embalaje adecuado y en condiciones -La entrega se realiza en el 1er acceso del
+                    domicilio o se retira en la sucursal de la empresa logística más cercana al domicilio del cliente si fue convenido de esa manera. 9- Precios de productos y promociones Los precios y promociones que se ofrecen en xxxx.com.ar , son exclusivos
+                    para el sitio, y no son aplicables a otros canales de ventas como ser: sucursales, ventas telefónicas, catálogos. La validez de las promociones, depende de la fecha de vigencia de las mismas o de la disponibilidad del stock informado.
+                    Las promociones no son acumulables entre sí, salvo que se exprese lo contrario en el sitio. 10- Imágenes y descripciones de productos Las fotos de los productos son ilustrativas y no contractuales. Las mismas son una ilustración de
+                    los productos debiendo el usuario confirmar el cumplimiento de sus requerimientos y necesidades antes de efectuar la compra. 11- Retractación de la compra Para las compras realizadas por medio de éste sitio, el usuario podrá retractarse
+                    dentro del plazo de diez (10) días contados a partir de la entrega del producto. Pasado ese plazo, xxxx.com.ar buscará la mejor solución posible en pos de la satisfacción del usuario. Los costos generados por la retractación de la
+                    compra serán a cargo del usuario. 12- Cambios, devolución y reparacion de productos La devolución del producto se puede realizar dentro del plazo enunciado en el punto anterior (10 días corridos contados a partir de la entrega del
+                    producto). Para devoluciones, cambios y reparación autorizados, el producto debe estar en perfecto estado de uso, completo, con embalaje original, factura de compra. Una vez recibido el producto en el lugar que xxxx.com.ar determine
+                    , se verificará y si cumple con los requisitos se procederá a la devolución, cambio o reparacion, según corresponda. En caso de garantía por reparación, y sin que hubiese sido retirado el producto en el término de 90 dias corridos
+                    a contar desde el aviso de disponibilidad, xxxx.com.ar no estará obligado a su entrega y el cliente perderá todo derecho a reclamo. Para tramitar la devolución, cambio o reparacion del producto, es necesario contactarse al Servicio
+                    de Atencion al cliente, donde un asesor le informará los pasos a seguir. 13- Inconvenientes de Sistemas xxxx.com.ar no puede garantizar el acceso y uso continuado o ininterrumpido de su sitio. El sistema puede eventualmente no estar
+                    disponible, debido a dificultades técnicas o fallas de Internet, o por cualquier otra circunstancia ajena a la empresa; en tales casos se procurará restablecerlo con la mayor celeridad posible.
+                </p>
+            </section>
+        </main>
+        <hr>
+        <!-- ************************************************************ FOOTER ****************************************************************** -->
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 col-xl-6">
+        <footer>
+            <div class="container-fluid d-flex justify-content-around">
+                <div class="footer__institu">
                     <h5>INSTITUCIONAL</h5>
                     <ul>
                         <li>
-                            <a href="../index.html">Home</a> </li>
+                            <a href="../pages/locales.html">Sucursales</a> </li>
                         <li>
                             <a href="../pages/contacto.html">Contacto</a></li>
                         <li>
                             <a href="../pages/form_contacto.html">Formulario Contacto</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-6 col-xl-6">
+                <div class="footer__ayuda">
                     <h5>AYUDA</h5>
-                    <ul class="h5__listAyuda--colorTexto">
+                    <ul class="h5__listAyuda--colorTexto ">
                         <li>
                             <a href="../pages/preg_frec.html">Preguntas Frecuentes</a></li>
                         <li>
@@ -153,24 +154,23 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 d-flex flex-row justify-content-end">
-                    <p>Seguinos en Nuestras Redes:</p>
-
-                    <a href="https://www.facebook.com/" target="_blank"><img src="../assets/imgs/face-32x32.png" alt="Face" class="imgRedes"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/imgs/insta-32x32.png" alt="Insta" class="imgRedes"></a>
-                    <a href="https://twitter.com/" target="_blank"><img src="../assets/imgs/twitter-32x32.png" alt="Twetter" class="imgRedes"></a>
-
-                    <a href="../pages/term_cond.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons contain"></a>
+                <div class="footer__redes">
+                    <p class="text_color_target">Seguinos en Nuestras Redes:</p>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook imgRedes"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram imgRedes"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter imgRedes"></i></a>
                 </div>
             </div>
-            <div class="d-flex flex-row justify-content-center align-items-end">
-                <p>&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+            <div class class="container-fluid">
+                <div>
+                    <p class="text_color_target">&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+                    <div class="d-flex row conteiner__arrow">
+                        <a href="../pages/term_cond.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
+                    </div>
+                </div>
             </div>
-    </footer>
+        </footer>
+    </div>
     <!-- ********************************** SCRIPT BOOSTRAP ****************************** -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>

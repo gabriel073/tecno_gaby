@@ -9,7 +9,8 @@
     <meta name="keywords" content="Hardware, Perifericos, Venta, Pc Gamer, Pc Escritorio, Notebook, Netbook, Tablet">
 
     <!-- **************************** BOOSTRAP ************************************************************** -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- ****************************** ESTILOS ************************************************************ -->
     <link rel="stylesheet" href="../assets/css/estilos.css">
@@ -27,78 +28,78 @@
 </head>
 
 <body>
-    <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
-    <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" alt="whats"></a>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../assets/imgs/logo.png" class="animate__animated animate__flipOutX" alt="Logo-Tecno-Gaby"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/novedades.html">Novedades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover" href="../pages/promos.html">Promociones</a>
-                        </li>
-                        <li class="nav-item dropdown hover">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Contactos
-                        </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item hover" href="../pages/contacto.html">Contacto / Ubicacion</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/locales.html">Sucursales</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/nosotros.html">Nosotros</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/form_contacto.html">Formulario Contacto</a></li>
-                                <li><a class="dropdown-item hover" href="../pages/term_cond.html">Terminos y Condiciones</a></li>
-                            </ul>
-                        </li>
-                        <form class="d-flex">
-                            <input class="form-control me-2 hoverSearch" type="search" placeholder="Buscar..." aria-label="Search">
-                            <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
-                        </form>
+    <div class="container-fluid ">
+        <!-- ********************************** LINKEANDO CONTACTO WHATS ******************************** -->
+        <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" class="whats" alt="whats"></a>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end ">
+                <a class="navbar-brand" href="index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2 hoverSearch " type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                </form>
+                <div class="collapse navbar-collapse justify-content-end m-10" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <div class="d-flex ">
+                            <li class="nav-item">
+                                <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/novedades.html">Novedades</a>
+                            </li>
+                            <li class="nav-item dropdown hover ">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contactos
+                            </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item hover" href="../pages/contacto.html">Contacto / Ubicacion</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/locales.html">Sucursales</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item hover" href="../pages/form_contacto.html">Formulario Contacto</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="../pages/promos.html">Promociones</a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
+            </nav>
+        </header>
+        <div class="container-fluid d-flex justify-content-around container__sucu--margen">
+            <div class="row ">
+                <section class="col-xl-6 col-md-6 container__sucursales">
+                    <h1 class="ml-20">SUCURSALES</h1>
+                    <ul>
+                        <li>Sucursal Mataderos ubicada en Juan B. Alberdi 5500, CABA</li>
+                        <li>Sucursal Caballito ubicada en av. Pedro Goyena 3255, CABA</li>
+                        <li>Sucursal Villa Urquiza ubicada en Conde 355, CABA</li>
+                        <li>Sucursal Belgrano ubicada en Av. Cabildo 3252, CABA</li>
+                        <li>Sucursal Vicente Lopez ubicada en Monroe 570, Vte. Lopez</li>
+                    </ul>
+                </section>
+                <aside class="col-xl-6 col-md-6 container__ubicacion">
+                    <h2 class="ml-20">UBICACION</h2>
+                    <img src="../assets/imgs/icon-map.svg" alt="icono-map" class="icons">
+                    <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13129.188642901578!2d-58.52010574999999!3d-34.647197549999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1607022982369!5m2!1ses-419!2sar" width="400"
+                            height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </aside>
             </div>
-        </nav>
-    </header>
-    <div class="container-fluid d-flex justify-content-around container__sucu--margen">
-        <div class="row ">
-            <section class="col-xl-6 col-md-6 container__sucursales">
-                <h1 class="ml-20">SUCURSALES</h1>
-                <ul>
-                    <li>Sucursal Mataderos ubicada en Juan B. Alberdi 5500, CABA</li>
-                    <li>Sucursal Caballito ubicada en av. Pedro Goyena 3255, CABA</li>
-                    <li>Sucursal Villa Urquiza ubicada en Conde 355, CABA</li>
-                    <li>Sucursal Belgrano ubicada en Av. Cabildo 3252, CABA</li>
-                    <li>Sucursal Vicente Lopez ubicada en Monroe 570, Vte. Lopez</li>
-                </ul>
-            </section>
-            <aside class="col-xl-6 col-md-6 container__ubicacion">
-                <h2 class="ml-20">UBICACION</h2>
-                <img src="../assets/imgs/icon-map.svg" alt="icono-map" class="icons">
-                <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13129.188642901578!2d-58.52010574999999!3d-34.647197549999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1607022982369!5m2!1ses-419!2sar" width="400"
-                        height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-            </aside>
         </div>
-    </div>
-    <hr>
-    <!-- ****************************************************************** FOOTER *********************************************************** -->
+        <hr>
+        <!-- ****************************************************************** FOOTER *********************************************************** -->
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 col-xl-6">
+        <footer>
+            <div class="container-fluid d-flex justify-content-around">
+                <div class="footer__institu">
                     <h5>INSTITUCIONAL</h5>
                     <ul>
                         <li>
@@ -109,9 +110,9 @@
                             <a href="../pages/form_contacto.html">Formulario Contacto</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-6 col-xl-6">
+                <div class="footer__ayuda">
                     <h5>AYUDA</h5>
-                    <ul class="h5__listAyuda--colorText">
+                    <ul class="h5__listAyuda--colorTexto ">
                         <li>
                             <a href="../pages/preg_frec.html">Preguntas Frecuentes</a></li>
                         <li>
@@ -121,27 +122,25 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 d-flex flex-row justify-content-end">
-                    <p>Seguinos en Nuestras Redes:</p>
-
-                    <a href="https://www.facebook.com/" target="_blank"><img src="../assets/imgs/face-32x32.png" alt="Face" class="imgRedes"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/imgs/insta-32x32.png" alt="Insta" class="imgRedes"></a>
-                    <a href="https://twitter.com/" target="_blank"><img src="../assets/imgs/twitter-32x32.png" alt="Twetter" class="imgRedes"></a>
-
-                    <a href="../pages/locales.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons contain"></a>
+                <div class="footer__redes">
+                    <p class="text_color_target">Seguinos en Nuestras Redes:</p>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook imgRedes"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram imgRedes"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter imgRedes"></i></a>
                 </div>
             </div>
-            <div class=" d-flex flex-row justify-content-center align-items-end">
-                <p>&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+            <div class class="container-fluid">
+                <div>
+                    <p class="text_color_target">&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
+                    <div class="d-flex row conteiner__arrow">
+                        <a href="../pages/locales.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
+                    </div>
+                </div>
             </div>
-    </footer>
-    <!-- ********************************** SCRIPT BOOSTRAP ****************************** -->
+        </footer>
+        <!-- ********************************** SCRIPT BOOSTRAP ****************************** -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
 
 </body>
 

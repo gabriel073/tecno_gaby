@@ -1,31 +1,34 @@
 .hover:hover {
     color: white;
-    background-color: #8080c7;
+    background-color: rgba(190, 185, 185, 0.514);
     border-radius: 20px;
-    font-size: 20px;
 }
 
 .hoverSearch:hover {
-    background-color: #8080c7;
+    background-color: rgba(190, 185, 185, 0.514)
 }
 
-.animate__flipOutX {
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
+.text_color_target {
+    color: #939c9e;
+    text-align: center;
 }
 
 #iconWhats {
     height: 40px;
     position: fixed;
-    top: 480px;
-    right: 50px;
     background: green;
     border: 2px solid #2FBFA1;
-    border-radius: 5px;
+    border-radius: 10px;
+    right: 10px;
+    top: 500px;
 }
 
-.logo img {
-    width: 170px;
+.whats {
+    z-index: 100;
+}
+
+.logo {
+    width: 140px;
 }
 
 .container__sponsors {
@@ -74,13 +77,23 @@ a {
     color: darkblue;
 }
 
+.footer__institu {}
+
+.footer__ayuda {
+    flex-direction: row;
+}
+
+.footer__redes {
+    flex-direction: row;
+}
+
 #footerContacto li a {
     color: white;
 }
 
 #derechosCont {
     text-align: center;
-    color: white;
+    color: rgb(8, 8, 8);
     font-size: 1.375em;
 }
 
@@ -95,6 +108,7 @@ footer .menuFooter ul li a:hover {
 .imgRedes {
     margin: 5px;
     border-radius: 70%;
+    font-size: 30px;
 }
 
 .menu ul {
@@ -215,6 +229,8 @@ p {
 .card {
     width: 24rem;
     margin: 10px;
+    padding: 15px;
+    margin: 0;
 }
 
 .card-text {
@@ -266,13 +282,6 @@ p {
     transition: 3s;
 }
 
-.imgArt:hover {
-    height: 350px;
-    width: 350px;
-    margin: auto;
-    transition: 4s;
-}
-
 @media (min-whidth: 768px) {
     .galleryContainer {
         grid-template-columns: repeat(4, 1fr);
@@ -294,7 +303,7 @@ p {
 .parrafo__quienes--size {
     font-size: 30px;
     color: #08088d;
-    text-shadow: 3px 2px #618991;
+    text-shadow: 2px 1px #618991;
 }
 
 @media (min-whidth: 1024px) {
@@ -321,10 +330,10 @@ p {
 }
 
 body {
-    background: linear-gradient(259deg, #020024 0%, rgba(17, 17, 162, 0.821166) 22%, #00d4ff 100%);
+    background: rgba(190, 185, 185, 0.514);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0.5 em;
+    padding: 10px;
     margin: 10px;
     height: 100%;
 }
@@ -335,6 +344,10 @@ body {
     justify-items: flex-end;
     height: 40px;
     width: 40px;
+}
+
+.conteiner__arrow {
+    justify-content: flex-end;
 }
 
 .newsletter {
@@ -366,7 +379,13 @@ video {
 }
 
 .title-h2 {
-    color: #038022;
+    color: black;
+    text-align: center;
+}
+
+.tittle__review {
+    color: black;
+    text-align: center;
 }
 
 .title-h3 {
