@@ -32,18 +32,18 @@
         <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" class="whats" alt="whats"></a>
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end ">
-                <a class="navbar-brand" href="index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler btnHamburg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon hamburg"></span>
                       </button>
-                <form class="d-flex justify-content-center">
-                    <input class="form-control me-2 hoverSearch " type="search" placeholder="Buscar..." aria-label="Search">
-                    <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                <form class="d-flex buscador">
+                    <input class="form-control me-2 hoverSearch buscador" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success hoverSearch buscador" type="submit">Buscar</button>
                 </form>
                 <div class="collapse navbar-collapse justify-content-end m-10" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
-                        <div class="d-flex ">
+                        <div class="d-flex subMenu">
                             <li class="nav-item">
                                 <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
                             </li>
@@ -74,23 +74,29 @@
         </header>
         <h1 class="title-h1">Productos</h1>
         <hr>
-        <div class="container-fluid row d-flex justify-content-around">
-            <section class="card col-12 col-xl-6 card-text">
-                <img src="../assets/imgs/memo-ram.jpg" alt="memoria ram" class="imgArt">
+        <div class="container-fluid d-flex justify-content-around container__section">
+            <section class="card col-12 col-xl-6 card-text container__section">
+                <img src="../assets/imgs/memo-ram.jpg" alt="memoria ram" class="imgArt img-fluid">
                 <div class="card-body">
                     <h2 class="title-h2">Memorias Ram DDR3</h2>
                     <p class="text_color_target">Brand Ballistix Form Factor UDIMM Total Capacity 8GB Warranty Limited Lifetime Specs DDR4 PC4-21300 • 16-18-18 • Unbuffered • NON-ECC • DDR4-2666 • 1.2V • 1024Meg x 64 • Series Ballistix Sport ECC NON-ECC Speed 2666 MT/S Voltage 1.2V
                         DIMM Type Unbuffered
                     </p>
                 </div>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary m-auto">Agregar al Carrito</a>
+                </div>
             </section>
-            <section class="card col-12 col-xl-6 card-text">
-                <img src="../assets/imgs/monitor.jpg" alt="monitor 24'" class="imgArt">
+            <section class="card col-12 col-xl-6 justify-content-around card-text container__section">
+                <img src="../assets/imgs/monitor.jpg" alt="monitor 24'" class="imgArt img-fluid">
                 <div class="card-body">
                     <h2 class="title-h2">Monitor Apple 24"</h2>
                     <p class="text_color_target">Brand Ballistix Form Factor UDIMM Total Capacity 8GB Warranty Limited Lifetime Specs DDR4 PC4-21300 • 16-18-18 • Unbuffered • NON-ECC • DDR4-2666 • 1.2V • 1024Meg x 64 • Series Ballistix Sport ECC NON-ECC Speed 2666 MT/S Voltage 1.2V
                         DIMM Type Unbuffered
                     </p>
+                </div>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary m-auto">Agregar al Carrito</a>
                 </div>
             </section>
         </div>
@@ -99,43 +105,54 @@
             <div class="row">
                 <h2 class="tittle__review">Review</h2><br>
 
-                <iframe width="560" height="415" src="https://www.youtube.com/embed/H31Lo2q2kAE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/H31Lo2q2kAE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="img-fluid" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="container-fluid row d-flex justify-content-around">
-            <section class="card col-12 col-xl-4 card-text">
-                <img src="../assets/imgs/teclado.jpg " alt="teclado inalambrico" class="imgArt">
+        <div class="container-fluid d-flex container__section">
+            <section class="card col-12 col-xl-4 justify-content-around card-text container__section">
+                <img src="../assets/imgs/teclado.jpg " alt="teclado inalambrico" class="imgArt img-fluid">
                 <div class="card-body">
                     <h2 class="title-h2">Teclado Inalambrico Apple</h2>
                     <p class="text_color_target">Altura: 132 mm Anchura: 445 mm Profundidad: 34 mm Peso (sin cable): 1.105 g Cable: 1,8 m.
                     </p>
                 </div>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary m-auto">Agregar al Carrito</a>
+                </div>
             </section>
-            <section class="card col-12 col-xl-4 card-text">
-                <img src="../assets/imgs/mouse.jpg" alt="mouse inalambrico" class="imgArt">
+            <section class="card col-12 col-xl-4 justify-content-around card-text container__section">
+                <img src="../assets/imgs/mouse.jpg" alt="mouse inalambrico" class="imgArt img-fluid">
                 <div class="card-body">
                     <h2 class="title-h2">Mouse Inalambrico</h2>
                     <p class="text_color_target">Ajuste de DPI on-the-fly hasta 3200 DPI – 6 botones, incluyendo 2 botones laterales programables – 8 pesas customizables de 2.4g – 4000 la tasa de respuesta fotogramas por segundo – Construido de plástico ABS de alta gama – Rueda de
                         desplazamiento antideslizante – Cable de 1.8m acordonado de alta resistencia – Retroiluminación de color rojo
                     </p>
                 </div>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary m-auto">Agregar al Carrito</a>
+                </div>
             </section>
-            <section class="card col-12 col-xl-4 card-text">
-                <img src="../assets/imgs/speaker.jpg" alt="parlantes multimedia" class="imgArt">
+            <section class="card col-12 col-xl-4 justify-content-around card-text container__section">
+                <img src="../assets/imgs/speaker.jpg" alt="parlantes multimedia" class="imgArt img-fluid">
                 <div class="card-body"></div>
                 <h2 class="title-h2">Speak Inalambrico</h2>
                 <p class="text_color_target">Disfruta de ritmos sensacionales mientras te desplazas con el parlante inalámbrico portátil SRS-XB12. Con EXTRA BASS™ para un sonido profundo e impactante y una duración de la batería de hasta 16 horas1, también es resistente al agua y
                     al polvo2 para tu tranquilidad. Tienda Oficial Apple Argentina Parlante Portatil Bluetooth Apple Inalambrico XB12 Extra Bass
                 </p>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-secondary m-auto">Agregar al Carrito</a>
+                </div>
             </section>
         </div>
         <hr>
         <!-- --------------------------------- **** Banner de Sponsors + Tarjetas***------------------------------------------ -->
 
         <section class="container__sponsors">
-            <a href="https://www.dell.com.ar/" target="_blank"><img src="../assets/imgs/logo-dell.jpg" alt="DELL" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www.nvidia.com/es-la/" target="_blank"><img src="../assets/imgs/logo-nvidia.jpg" alt="NVIDIA" class="container__sponsors__imgSponsor"></a>
-            <div class="rounded mx-auto d-block">
+            <div class="sponsor">
+                <a href="https://www.dell.com.ar/" target="_blank"><img src="../assets/imgs/logo-dell.jpg" alt="DELL" class="container__sponsors__imgSponsor"></a>
+                <a href="https://www.nvidia.com/es-la/" target="_blank"><img src="../assets/imgs/logo-nvidia.jpg" alt="NVIDIA" class="container__sponsors__imgSponsor"></a>
+            </div>
+            <div class="rounded  d-block">
                 <h2 class="title-h1">12 CUOTAS SIN INTERES</h2>
                 <div class="tarjets">
                     <img src="../assets/imgs/logo-visa.png" alt="VISA" class="iconTarjetas">
@@ -143,14 +160,16 @@
                     <img src="../assets/imgs/logo_master.png" alt="MASTER" class="iconTarjetas">
                 </div>
             </div>
-            <a href="https://www.gigabyte.com/ar" target="_blank"><img src="../assets/imgs/logo-gigabyte.png" alt="Gigabyte" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www.kingston.com/es" target="_blank"><img src="../assets/imgs/logo-kingston.png" alt="Kingston" class="container__sponsors__imgSponsor"></a>
+            <div class="sponsor">
+                <a href="https://www.gigabyte.com/ar" target="_blank"><img src="../assets/imgs/logo-gigabyte.png" alt="Gigabyte" class="container__sponsors__imgSponsor"></a>
+                <a href="https://www.kingston.com/es" target="_blank"><img src="../assets/imgs/logo-kingston.png" alt="Kingston" class="container__sponsors__imgSponsor"></a>
+            </div>
         </section>
         <hr>
         <!-- ********************************************** FOOTER ********************************************************** -->
 
         <footer>
-            <div class="container-fluid d-flex justify-content-around">
+            <div class="container-fluid d-flex justify-content-around container__footer">
                 <div class="footer__institu">
                     <h5>INSTITUCIONAL</h5>
                     <ul>
@@ -174,23 +193,23 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__redes">
-                    <p class="text_color_target">Seguinos en Nuestras Redes:</p>
+                <div class="footer__redes row d-flex">
+                    <p class="text_color_target seguinos d-flex">Seguinos en Nuestras Redes:</p>
                     <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook imgRedes"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram imgRedes"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter imgRedes"></i></a>
                 </div>
             </div>
             <div class class="container-fluid">
+                <div class="d-flex row conteiner__arrow">
+                    <a href="../pages/productos.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
+                </div>
                 <div>
                     <p class="text_color_target">&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
-                    <div class="d-flex row conteiner__arrow">
-                        <a href="../pages/productos.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
-                    </div>
                 </div>
             </div>
-        </footer>
     </div>
+    </footer>
+
     <!-- ********************************** SCRIPT BOOSTRAP ****************************** -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>

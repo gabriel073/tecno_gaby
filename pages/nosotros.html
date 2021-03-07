@@ -33,18 +33,18 @@
         <a href="https://api.whatsapp.com/send?phone=1136706393"><img src="../assets/imgs/icon-whats.svg" id="iconWhats" class="whats" alt="whats"></a>
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end ">
-                <a class="navbar-brand" href="index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/imgs/logo.png" class="logo" alt="Logo-Tecno-Gaby"></a>
+                <button class="navbar-toggler btnHamburg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon hamburg"></span>
                       </button>
-                <form class="d-flex justify-content-center">
-                    <input class="form-control me-2 hoverSearch " type="search" placeholder="Buscar..." aria-label="Search">
-                    <button class="btn btn-outline-success hoverSearch" type="submit">Buscar</button>
+                <form class="d-flex buscador">
+                    <input class="form-control me-2 hoverSearch buscador" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-success hoverSearch buscador" type="submit">Buscar</button>
                 </form>
                 <div class="collapse navbar-collapse justify-content-end m-10" id="navbarNavDropdown">
                     <ul class="navbar-nav ">
-                        <div class="d-flex ">
+                        <div class="d-flex subMenu">
                             <li class="nav-item">
                                 <a class="nav-link active hover" aria-current="page" href="../index.html">Home</a>
                             </li>
@@ -71,7 +71,6 @@
                         </div>
                     </ul>
                 </div>
-            </nav>
             </nav>
         </header>
         <h1>QUIENES SOMOS</h1>
@@ -121,19 +120,24 @@
             </div>
         </div>
         <hr>
-        <div class="container__sponsors">
-            <a href="https://www.dell.com.ar/" target="_blank"><img src="../assets/imgs/logo-dell.jpg" alt="DELL" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www.nvidia.com/es-la/" target="_blank"><img src="../assets/imgs/logo-nvidia.jpg" alt="NVIDIA" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www8.hp.com/ar/es/home.html" target="_blank"><img src="../assets/imgs/logo-hp.jpg" alt="HP" class="container__sponsors__imgSponsor"></a>
-            <a href="https://es.geniusnet.com/" target="_blank"><img src="../assets/imgs/genius.svg" alt="Genius" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www.gigabyte.com/ar" target="_blank"><img src="../assets/imgs/logo-gigabyte.png" alt="Gigabyte" class="container__sponsors__imgSponsor"></a>
-            <a href="https://www.kingston.com/es" target="_blank"><img src="../assets/imgs/logo-kingston.png" alt="Kingston" class="container__sponsors__imgSponsor"></a>
-        </div>
+        <section class="container__sponsors">
+            <p class="tittle__sponsors">Empresas Que Nos Apoyan</p>
+            <div class="sponsor2">
+                <a href="https://www.dell.com.ar/ " target="_blank "><img src="../assets/imgs/logo-dell.jpg" alt="DELL " class="container__sponsors__imgSponsor "></a>
+                <a href="https://www.nvidia.com/es-la/ " target="_blank "><img src="../assets/imgs/logo-nvidia.jpg " alt="NVIDIA " class="container__sponsors__imgSponsor "></a>
+                <a href="https://www8.hp.com/ar/es/home.html " target="_blank "><img src="../assets/imgs/logo-hp.jpg " alt="HP " class="container__sponsors__imgSponsor "></a>
+            </div>
+            <div class="sponsor2">
+                <a href="https://es.geniusnet.com/ " target="_blank "><img src="../assets/imgs/genius.svg " alt="Genius " class="container__sponsors__imgSponsor "></a>
+                <a href="https://www.gigabyte.com/ar " target="_blank "><img src="../assets/imgs/logo-gigabyte.png " alt="Gigabyte " class="container__sponsors__imgSponsor "></a>
+                <a href="https://www.kingston.com/es " target="_blank "><img src="../assets/imgs/logo-kingston.png " alt="Kingston " class="container__sponsors__imgSponsor "></a>
+            </div>
+        </section>
         <hr>
         <!-- ******************************************** FOOTER ************************************************************* -->
 
         <footer>
-            <div class="container-fluid d-flex justify-content-around">
+            <div class="container-fluid d-flex justify-content-around container__footer">
                 <div class="footer__institu">
                     <h5>INSTITUCIONAL</h5>
                     <ul>
@@ -157,19 +161,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__redes">
-                    <p class="text_color_target">Seguinos en Nuestras Redes:</p>
+                <div class="footer__redes row d-flex">
+                    <p class="text_color_target seguinos d-flex">Seguinos en Nuestras Redes:</p>
                     <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook imgRedes"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram imgRedes"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter imgRedes"></i></a>
                 </div>
             </div>
             <div class class="container-fluid">
+                <div class="d-flex row conteiner__arrow">
+                    <a href="../pages/nosotros.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
+                </div>
                 <div>
                     <p class="text_color_target">&#174 2020 Tecno-Gaby.Todos los Derechos Reservados</p>
-                    <div class="d-flex row conteiner__arrow">
-                        <a href="../pages/nosotros.html"><img src="../assets/imgs/icon-row.svg" alt="Inicio" class="icons"></a>
-                    </div>
                 </div>
             </div>
         </footer>
